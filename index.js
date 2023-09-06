@@ -1,9 +1,9 @@
-//prueba incompleta
-
 const express = require("express");
 const app = express();
 
 app.get("/", function(request,
 	response){
-	response.send
-})
+	response.send("Hello World");
+});
+
+app.listen(55040);
